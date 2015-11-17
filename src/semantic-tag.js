@@ -1,7 +1,7 @@
-export { default as peer }           from './semantic-tag-peer'
-export { default as spatial }        from './semantic-tag-spatial'
-export { default as time }           from './semantic-tag-time'
-export { default as direction }      from './semantic-tag-direction'
+export { default as peer }      from './peer'
+export { default as spatial }   from './spatial'
+export { default as time }      from './time'
+export { default as direction } from './direction'
 
 export const semanticTag = {
   "id":          "#/semanticTag",
