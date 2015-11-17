@@ -7,7 +7,7 @@ export default {
   "properties":  {
     "$ref":   "#/semanticTag",
     "adress": {
-      "type": "array"
+      "type": "array",
       "items": {
         "type":     "string",
         "pattern":  "" // TODO gcf

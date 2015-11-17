@@ -9,7 +9,7 @@ export default {
     "geometries": {
       "type": "array",
       "items": {
-        "type":    "string"
+        "type":    "string",
         "pattern": "" // ewktString
       }
     }

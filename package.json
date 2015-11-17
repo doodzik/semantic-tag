@@ -1,8 +1,8 @@
 {
-  "name": "semantic-internet-protocol",
-  "version": "0.0.0",
-  "description": "implementation of the semantic internet protocol 1.0",
-  "main": "lib/semantic-internet-protocol",
+  "name": "semantic-tag",
+  "version": "0.0.1",
+  "description": "semantic tags for the semantic internet protocol",
+  "main": "lib/semantic-tag",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register",
     "prepublish": "gulp build",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/doodzik/semantic-internet-protocol.git"
+    "url": "git+https://github.com/doodzik/semantic-tag.git"
   },
   "author": {
     "name": "Frederik Dudzik",
@@ -18,22 +18,22 @@
   },
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/doodzik/semantic-internet-protocol/issues"
+    "url": "https://github.com/doodzik/semantic-tag/issues"
   },
-  "homepage": "https://github.com/doodzik/semantic-internet-protocol#readme",
+  "homepage": "https://github.com/doodzik/semantic-tag#readme",
   "devDependencies": {
     "jsonschema": "^1.0.2",
     "babel-core": "^6.1.4",
     "babel-plugin-transform-export-extensions": "^6.1.18",
     "babel-preset-es2015": "^6.1.4",
-    "mocha": "^2.3.3"
+    "mocha": "^2.3.3",
     "del": "^2.1.0",
     "gulp": "^3.9.0",
     "gulp-babel": "^6.1.0",
     "gulp-exec": "^2.1.2",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-util": "^3.0.7"
-  }
+  },
   "babel": {
     "plugins": [
       "transform-export-extensions"

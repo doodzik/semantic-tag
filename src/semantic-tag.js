@@ -3,7 +3,7 @@ export { default as spatial }        from './semantic-tag-spatial'
 export { default as time }           from './semantic-tag-time'
 export { default as direction }      from './semantic-tag-direction'
 
-export default {
+export const semanticTag = {
   "id":          "#/semanticTag",
   "$schema":     "http://json-schema.org/draft-04/schema#",
   "description": "",
