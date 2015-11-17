@@ -5,10 +5,13 @@ export default {
   "type":        "object",
   "required":    ["geometries"],
   "properties":  {
-    "$ref":       "#/semanticTag",
+    "$ref": "#/semanticTag",
     "geometries": {
-      "type":     "string",
-      "pattern":  "" // ewktString
+      "type": "array",
+      "items": {
+        "type":    "string"
+        "pattern": "" // ewktString
+      }
     }
   }
 }
