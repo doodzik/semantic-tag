@@ -1,8 +1,8 @@
 {
   "name": "semantic-tag",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "semantic tags for the semantic internet protocol",
-  "main": "lib/semantic-tag",
+  "main": "lib/index",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register",
     "prepublish": "gulp build",
@@ -43,6 +43,7 @@
     ]
   },
   "dependencies": {
-    "msgpack-lite": "^0.1.13"
+    "msgpack-lite": "^0.1.13",
+    "objectmodel": "^1.1.4"
   }
 }

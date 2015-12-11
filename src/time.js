@@ -1,17 +1,10 @@
-export default {
-  "id":          "#/semanticTag/time",
-  "$schema":     "http://json-schema.org/draft-04/schema#",
-  "description": "",
-  "type":        "object",
-  "required":    ["times"],
-  "properties":  {
-    "$ref":  "#/semanticTag",
-    "times": {
-      "type": "array",
-      "items": {
-        "from":     { "type": "integer" },
-        "duration": { "type": "integer" }
-      }
-    }
-  }
-}
+import semanticTag from './semantic-tag'
+
+const Time = Model({
+  from: Number,
+  to: Number,
+})
+
+export default semanticTag.extend({
+  times: Model.Array(Adress)
+})

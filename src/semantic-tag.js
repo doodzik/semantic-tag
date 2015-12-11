@@ -1,22 +1,11 @@
-export { default as peer }      from './peer'
-export { default as spatial }   from './spatial'
-export { default as time }      from './time'
-export { default as direction } from './direction'
+const Uri = Model({
+  uri: new RegExp("#\b(([\w-]+://?|www[.])[^\s()<>]+(?:\([\w\d]+\)|([^[:punct:]\s]|/)))#iS")
+})
 
-export const semanticTag = {
-  "id":          "#/semanticTag",
-  "$schema":     "http://json-schema.org/draft-04/schema#",
-  "description": "",
-  "type":        "object",
-  "required":    ["name", "sis"],
-  "properties":  {
-    "name": { "type": "string" },
-    "sis":  {
-      "type": "array",
-      "items": {
-        "type":     "string",
-        "pattern":  "#\b(([\w-]+://?|www[.])[^\s()<>]+(?:\([\w\d]+\)|([^[:punct:]\s]|/)))#iS" // uri pattern from https://mathiasbynens.be/demo/url-regex @gruber
-      }
-    }
-  }
-}
+const semanticTag = Model({
+	name: String,
+	sis:  Model.Array(Uri)
+})
+
+export Uri
+export default semanticTag
