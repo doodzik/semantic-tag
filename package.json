@@ -41,9 +41,5 @@
     "presets": [
       "es2015"
     ]
-  },
-  "dependencies": {
-    "msgpack-lite": "^0.1.13",
-    "objectmodel": "^1.1.4"
   }
 }
