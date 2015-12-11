@@ -1,8 +1,7 @@
 # semantic-tag
 
 This Repo contains the spec for semantic tags.
-It is written in [JSON-Schema](http://json-schema.org)
-You can find the spec in the source directory
+It is implemented in https://github.com/sylvainpolletvillard/ObjectModel
 
 # installation
 

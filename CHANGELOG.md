@@ -1,4 +1,4 @@
-## Version 0.0.2 2015-11-17
+## Version 0.0.3 2015-12-11
 
 change validation to object model
 
