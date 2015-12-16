@@ -1,6 +1,6 @@
 {
   "name": "semantic-tag",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "semantic tags for the semantic internet protocol",
   "main": "lib/index",
   "scripts": {
