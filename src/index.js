@@ -1,5 +1,8 @@
-export { default as peer }      from './peer'
-export { default as spatial }   from './spatial'
-export { default as time }      from './time'
-export { default as direction } from './direction'
-export default                  from './semantic-tag'
+var peer = require('./peer')
+var spatial = require('./spatial')
+var time = require('./time')
+var direction = require('./direction')
+var semanticTag = require('./semantic-tag')
+
+module.exports = { peer, spatial, time, direction, semanticTag }
+

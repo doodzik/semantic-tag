@@ -1,6 +1,6 @@
-import semanticTag from './semantic-tag'
+var semanticTag = require('./semantic-tag')
 
-export default function validate(obj) {
+module.exports = function validate(obj) {
   semanticTag(obj)
   if(obj.geometries instanceof Array) {
     obj.geometries.forEach((val) => {

@@ -13,7 +13,7 @@ function ValidURL(str) {
   }
 }
 
-export default function validate(obj) {
+module.exports = function validate(obj) {
   if(obj && typeof obj.name == 'string' && typeof obj.sis instanceof Array) {
     obj.sis.forEach((val) => {
       if(!ValidURL(val))
