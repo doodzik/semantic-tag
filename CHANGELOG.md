@@ -1,3 +1,7 @@
+## Version 0.0.6 2016-1-28
+
+use the old requiere and export statements
+
 ## Version 0.0.5 2015-12-11
 
 update deps
